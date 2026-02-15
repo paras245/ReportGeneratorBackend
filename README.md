@@ -52,8 +52,8 @@ SignalR is a library that enables real-time web functionality. It allows the ser
 
     Open your terminal in the project folder and run:
     ```bash
-    dotnet ef migrations add InitialCreate
-    dotnet ef database update
+    add-migration initial
+    update-database
     ```
 
 3.  **Start the Server**:
